@@ -11,7 +11,7 @@ class iBank {
     withdraw(b) {
         if (this.currentBalance - b <= 0) {
             console.log(`your balance:$${this.currentBalance}`)
-            alert(" tor tk ni !!!!!!!")
+            alert(`${names.toUpperCase()} Tor TK Ni!!!`)
             return
         }
         this.currentBalance -= b
